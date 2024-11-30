@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from 'next/link';
 
 export default function Home() {
@@ -19,7 +18,7 @@ export default function Home() {
           <div className="content">
             <h1 className="texthi">Hello Everyone!</h1>
             <h1 className="nametext">I'm Kitsada Bamrungkhet</h1>
-            <p>I am a student of software engineering. I'm in my second year.  I’m a quiet person. Not very good at approaching people Have a passion for programming. Nice to meet you.</p>
+            <p>I am a student of software engineering. I am in my second year.  I am a quiet person. Not very good at approaching people Have a passion for programming. Nice to meet you.</p>
           </div>
       </section>
     </div>
