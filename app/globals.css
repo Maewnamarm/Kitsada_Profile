@@ -19,3 +19,96 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.header{
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 200px;
+  transition: 0.5s ease;
+}
+.header .brand{
+  color: #ff0000;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header .navigation{
+  position: relative;
+}
+.header .navigation .navigation-items {
+  display: flex;
+  gap: 1px;
+}
+.header .navigation .navigation-items p{
+  position: relative;
+  color: aqua;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.header .navigation .navigation-items p:before{
+  content: '';
+  position: absolute;
+  width: 100;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+.header .navigation .navigation-items p:hover{
+  width: 100%;
+  color: #ff0000;
+}
+section{
+  padding: 100px 200px;
+}
+.home{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.home video{
+  z-index: 000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home .content{
+  z-index: 888;
+  color: #000000;
+  width: 70%;
+  margin-top: 50px;
+}
+.home .content .texthi{
+  font-size: 4em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 75px;
+  margin-bottom: 40px;
+}
+.home .content .nametext{
+  font-size: 2em;
+  font-weight: 500;
+}
+.home .content p{
+  margin-bottom: 0px;
+}
+video{
+  width: 600px;
+}
