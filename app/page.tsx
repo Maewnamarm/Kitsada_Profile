@@ -17,7 +17,7 @@ export default function Home() {
         <video className="video=slide" src="/videos/3video.mp4" autoPlay muted loop></video>
           <div className="content">
             <h1 className="texthi">Hello Everyone!</h1>
-            <h1 className="nametext">I'm Kitsada Bamrungkhet</h1>
+            <h1 className="nametext">I am Kitsada Bamrungkhet</h1>
             <p>I am a student of software engineering. I am in my second year.  I am a quiet person. Not very good at approaching people Have a passion for programming. Nice to meet you.</p>
           </div>
       </section>
